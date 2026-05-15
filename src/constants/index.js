@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    github,
+    cartel2
 } from "../assets";
 
 export const navLinks = [
@@ -96,13 +98,21 @@ const technologies = [
         name: "MongoDB",
         icon: mongodb,
     },
+    // {
+    //     name: "Three JS",
+    //     icon: threejs,
+    // },
     {
-        name: "Three JS",
+        name: "three JS",
         icon: threejs,
     },
     {
         name: "git",
         icon: git,
+    },
+    {
+        name: "github",
+        icon: github,
     },
     {
         name: "figma",
@@ -235,54 +245,62 @@ const experiences = [
 ];
 
 const testimonials = [
+    // {
+    //     testimonial:
+    //         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //     name: "Sara Lee",
+    //     designation: "CFO",
+    //     company: "Acme Co",
+    //     image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
+    // {
+    //     testimonial:
+    //         "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    //     name: "Chris Brown",
+    //     designation: "COO",
+    //     company: "DEF Corp",
+    //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //     testimonial:
+    //         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //     name: "Lisa Wang",
+    //     designation: "CTO",
+    //     company: "456 Enterprises",
+    //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+            "✨ This space is reserved for future client feedback, collaborations, and real-world project reviews as I continue building and improving my development journey.",
+        name: "COMING SOON",
+        designation: "Future Client Reviews",
+        company: "Portfolio in Progress",
+        image: "https://randomuser.me/api/portraits/lego/5.jpg",
+    }
 ];
 
 const projects = [
-    {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
+    // {
+    //     name: "Car Rent",
+    //     description:
+    //         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    //     tags: [
+    //         {
+    //             name: "react",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "mongodb",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "tailwind",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: carrent,
+    //     source_code_link: "https://github.com/",
+    // },
     {
         name: "Job IT",
         description:
@@ -304,27 +322,54 @@ const projects = [
         image: jobit,
         source_code_link: "https://github.com/",
     },
+    // {
+    //     name: "Trip Guide",
+    //     description:
+    //         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //     tags: [
+    //         {
+    //             name: "nextjs",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "supabase",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "css",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: tripguide,
+    //     source_code_link: "https://github.com/",
+    // },
     {
-        name: "Trip Guide",
+        name: "Cartel Apparel Store",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A modern responsive e-commerce frontend for a clothing brand specializing in t-shirt sales. The platform allows users to browse products, view product details, filter items by category, and simulate a shopping cart experience. Designed with a focus on clean UI, smooth user experience, and mobile-first responsiveness.",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
+                name: "tailwindcss",
                 color: "pink-text-gradient",
             },
+            {
+                name: "javascript",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "ui-ux",
+                color: "green-text-gradient",
+            },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: cartel2, // replace with your real project screenshot
+        source_code_link: "https://github.com/sokunthyvathana/cartel.io",
     },
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -19,7 +19,9 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+// import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +31,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cartel2 from "./cartel2.png";
+// import cartel1 from "./cardtel1.png";
 
 export {
   logo,
@@ -59,4 +63,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  cartel2,
 };
