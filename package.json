@@ -1,5 +1,6 @@
 {
   "name": "porfolio",
+  "homepage": "https://github.com/sokunthyvathana/3dPorfolio.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-page -d dist "
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -15,6 +18,7 @@
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.6.1",
     "framer-motion": "^12.38.0",
+    "gh-pages": "^6.3.0",
     "iconoir-react": "^7.11.0",
     "maath": "^0.10.8",
     "react": "^19.2.6",
